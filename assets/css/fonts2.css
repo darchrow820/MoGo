@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Kaushan Script';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Kaushan Script'),
+         url('assets/fonts/KaushanScript-Regular.ttf') format('ttf')
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Kaushan Script'),
+         url('assets/fonts/KaushanScript-Regular.ttf') format('ttf')
+}
+@font-face {
+    font-family: "Kaushan Script";
+    src: url('assets/fonts/KaushanScript-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Montserrat'),
+         url('assets/fonts/Montserrat-Regular.ttf') format('ttf')
+}
+
+body {
+	font-size: 72px;
+	font-family: 'Kaushan Script', sans-serif;
+}
+
+p {
+	font-size: 72px;
+	font-family: 'Kaushan Script', sans-serif;
+}
+
+header {
+	font-size: 72px;
+	font-family: 'Kaushan Script', sans-serif;
+}
