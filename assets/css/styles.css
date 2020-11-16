@@ -85,7 +85,7 @@ hr {
 
 /* Header */
 
-.header {
+.header {    
     width: 100%;
     position: absolute;
 
@@ -98,6 +98,8 @@ hr {
 }
 
 .header.fixed {
+    padding: 10px 0;
+
     background-color: #e98782;
     box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
 
@@ -1436,6 +1438,10 @@ color: #999;
         background-color:  #e98782;
     }
 
+    .nav.active {
+        display: block;
+    }
+
     .nav_link {
         display: block;
         margin: 0;
@@ -1465,7 +1471,7 @@ color: #999;
     .devices_item--iphone {
         /* width: 180px; */
         bottom: -80px;
-        right: -30px;
+        right: -15px;
     }
 
     /* Card */
