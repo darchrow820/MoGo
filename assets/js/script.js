@@ -39,10 +39,31 @@ $(function() {
     });
 
     // Menu toggle
-    $("#nav_toggle").on("click", function(event) {
+    $(".menu-icon").on("click", function(event) {
         event.preventDefault();
-        $(this).toggleClass("active");
+        $(this).toggleClass('opened');
         $("#nav").toggleClass("active")
+    })
+
+    // Collapse
+
+    $("[data-collapse]").on("click", function(event) {
+        event.preventDefault();
+
+        let $this = $(this),
+            blockID = $(this).data("collapse");
+
+        $(blockID).slideToggle();
+        $this.toggleClass('active');    
+    })
+
+    // Slider
+
+    $("[data-slider]").slick({
+        infinite: true,
+        fade: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
     })
 
 });
